@@ -1,0 +1,512 @@
+@media screen and (max-width: 1441px) {
+  /*Pre-Header*/
+  header a {
+    font-size: 1rem;
+  }
+  /*Header*/
+  section #transparent p {
+    font-size: 1.1rem;
+  }
+  section #transparent #text {
+    padding: 40px 70px;
+  }
+  section #transparent #text h2 {
+    font-size: 1.5rem;
+    letter-spacing: 0.8px;
+  }
+  section #transparent #text h3 {
+    font-size: 1.3rem;
+  }
+  /*Skills*/
+  .wrapper-skills {
+    width: 95%;
+  }
+  #skills .myskills {
+    padding: 10px 10px;
+  }
+  #skills .myskills .skillsText .pr {
+    margin-left: 280px;
+  }
+  /*Projects*/
+  .wrapper-project {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  section #text {
+    padding: 0px;
+    margin-left: 30px;
+  }
+  section #text h2 {
+    font-size: 1.1rem;
+  }
+  section #text h3 {
+    font-size: 1rem;
+  }
+  section #text #icons {
+    font-size: 1.15rem;
+    margin-top: 15px;
+  }
+  /*Skills*/
+  .wrapper-skills {
+    width: 100%;
+  }
+  #skills .myskills {
+    width: 30%;
+  }
+  #skills .myskills .skillsText .pr {
+    margin-left: 250px;
+  }
+  /*Projects*/
+  #myProject {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #myProject .project {
+    margin-bottom: 50px;
+    width: 80%;
+  }
+  /*footer*/
+  footer {
+    font-size: 1rem;
+  }
+  footer #iconsFooter a {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  header #logoName a img {
+    width: 70px;
+  }
+  section #transparent {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  section #transparent #text {
+    padding: 40px 60px;
+    margin-left: 0px;
+    margin-top: 2px;
+  }
+  section #transparent #text h1 {
+    font-size: 1.45rem;
+  }
+  section #image {
+    background-position: center;
+    background-size: cover;
+  }
+  section #icons {
+    margin-top: 12px;
+  }
+  /*AboutMe*/
+  .wrapper {
+    width: 85%;
+  }
+  #about {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #about img {
+    width: 180px;
+  }
+  #about #aboutMe h3 {
+    font-size: 1.1rem;
+    line-height: 20px;
+  }
+  /*Skills*/
+  .wrapper-skills {
+    width: 100%;
+  }
+  #skills .myskills {
+    padding: 20px 0px;
+    width: 37%;
+  }
+  #skills .myskills .skillsText .pr {
+    margin-left: 220px;
+  }
+  /*CV*/
+  #aboutCv {
+    width: 150px;
+    height: 40px;
+    font-size: 0.9rem;
+  }
+  /*Projects*/
+  .wrapper-project {
+    width: 100%;
+  }
+  /*Contact Form*/
+  #contactForm input[type=text] {
+    width: 272px;
+  }
+  #contactForm input[type=email] {
+    width: 554px;
+  }
+  #contactForm textarea {
+    width: 555px;
+  }
+  #contactForm input[type=submit] {
+    margin-left: 350px;
+  }
+  /*Footer*/
+  footer {
+    font-size: 0.9rem;
+  }
+  footer #iconsFooter a {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  /*Skills*/
+  #skills .myskills {
+    width: 55%;
+  }
+  /*Contact Form*/
+  #contactForm {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #contactForm input[type=text] {
+    width: 212px;
+  }
+  #contactForm input[type=email] {
+    width: 435px;
+  }
+  #contactForm textarea {
+    width: 440px;
+  }
+  #contactForm input[type=submit] {
+    margin-left: 235px;
+  }
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  #arrow {
+    width: 40px;
+    height: 40px;
+  }
+  #arrow a {
+    font-size: 2.2rem;
+  }
+  header #logoName a img {
+    width: 45px;
+  }
+  header a {
+    font-size: 0.75rem;
+  }
+  header ul {
+    margin-right: 20px;
+  }
+  header ul li a {
+    font-size: 0.8rem;
+  }
+  .line {
+    width: 100%;
+  }
+  section #transparent {
+    height: 400px;
+  }
+  section #transparent p {
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+  }
+  section #transparent #text {
+    padding: 25px 40px;
+    margin-left: 0px;
+  }
+  section #transparent #text h1 {
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+  }
+  section #transparent #text h3 {
+    font-size: 0.9rem;
+  }
+  section #transparent #text #icons {
+    font-size: 1rem;
+    letter-spacing: 4px;
+  }
+  section #transparent #text #border {
+    width: 135px;
+    height: 45px;
+  }
+  section #image {
+    width: 100%;
+  }
+  /*CV*/
+  #aboutCv {
+    margin-top: 0px;
+  }
+  /*AboutMe*/
+  .wrapper {
+    width: 90%;
+  }
+  #about {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 0px;
+  }
+  #about img {
+    width: 150px;
+  }
+  #about #imgMe {
+    margin-bottom: 20px;
+  }
+  #about #aboutMe h3 {
+    width: 90%;
+    text-align: center;
+    font-size: 1rem;
+    letter-spacing: 0px;
+    margin-bottom: 30px;
+    line-height: 18px;
+  }
+  #skills .myskills {
+    width: 80%;
+  }
+  #skills .myskills .css {
+    width: 70px;
+  }
+  #skills .myskills .nodejs {
+    width: 170px;
+  }
+  #skills .myskills .nodejs img {
+    width: 170px;
+  }
+  /*Project*/
+  .wrapper-project {
+    width: 90%;
+  }
+  #myProject {
+    margin: 45px 0px 80px;
+  }
+  #myProject .project {
+    width: 100%;
+  }
+  /*Contact Form*/
+  #contactForm {
+    margin: 40px auto;
+    width: 80%;
+  }
+  #contactForm #LstNamedesk {
+    display: none;
+  }
+  #contactForm #resp-lastName {
+    display: inline-block;
+  }
+  #contactForm table tr td {
+    display: table-row;
+  }
+  #contactForm input[type=text], #contactForm input[type=email] {
+    width: 300px;
+    font-size: 0.9rem;
+  }
+  #contactForm textarea {
+    width: 300px;
+    font-size: 0.9rem;
+  }
+  #contactForm input[type=submit], #contactForm input[type=reset] {
+    width: 70px;
+    height: 25px;
+    font-size: 0.7rem;
+  }
+  #contactForm input[type=submit] {
+    margin-left: 80px;
+  }
+  #contactForm input[type=reset] {
+    margin-left: 5px;
+  }
+  /*Footer*/
+  footer {
+    font-size: 0.8rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer p {
+    margin-top: 10px;
+  }
+  footer #iconsFooter {
+    margin-bottom: 10px;
+  }
+  footer #iconsFooter a {
+    font-size: 1rem;
+    margin-left: 5px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  #arrow {
+    width: 25px;
+    height: 25px;
+  }
+  #arrow a {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 1.4rem;
+  }
+  #arrow a i {
+    margin-top: 0.5px;
+  }
+  /*Pre-Header*/
+  header #logoName a img {
+    width: 30px;
+    margin-top: 10px;
+  }
+  header nav ul li a {
+    font-size: 0.5rem;
+  }
+  .line {
+    width: 100%;
+  }
+  /*Header*/
+  section {
+    margin: 10px 0px;
+  }
+  section #transparent {
+    height: 300px;
+  }
+  section #transparent p {
+    font-size: 0.7rem;
+    margin-bottom: 3px;
+  }
+  section #transparent #text {
+    padding: 10px 30px;
+  }
+  section #transparent #text h1 {
+    font-size: 0.75rem;
+    padding-top: 10px;
+    margin-bottom: 0px;
+  }
+  section #transparent #text h3 {
+    font-size: 0.65rem;
+  }
+  section #transparent #text #icons {
+    font-size: 0.7rem;
+    padding-bottom: 10px;
+    letter-spacing: 4px;
+    margin-top: 12px;
+  }
+  section #image {
+    width: 100%;
+  }
+  .title {
+    font-size: 0.8rem;
+  }
+  .title-skill {
+    margin: 0px;
+  }
+  /*AboutMe*/
+  #about img {
+    width: 110px;
+  }
+  #about #aboutMe h3 {
+    font-size: 0.8rem;
+    width: 85%;
+  }
+  /*Skills*/
+  #skills {
+    margin: 0px;
+  }
+  #skills .myskills {
+    height: 200px;
+  }
+  #skills .myskills .photo {
+    width: 70px;
+  }
+  #skills .myskills .css {
+    width: 55px;
+  }
+  #skills .myskills .css img {
+    width: 55px;
+  }
+  #skills .myskills .js {
+    width: 120px;
+  }
+  #skills .myskills .sql {
+    width: 110px;
+  }
+  #skills .myskills .nodejs {
+    width: 160px;
+  }
+  #skills .myskills .nodejs img {
+    width: 160px;
+  }
+  #skills .myskills .skillsText h3 {
+    font-size: 0.95rem;
+  }
+  #skills .myskills .skillsText p {
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+  }
+  #skills .myskills .skillsText .meter {
+    width: 80%;
+  }
+  #skills .myskills .skillsText .pr {
+    margin-left: 160px;
+  }
+  #skills .myskills .skillsText p:nth-child(3) {
+    font-size: 5rem;
+  }
+  /*Projects*/
+  #myProject {
+    margin: 35px 0px 0px;
+  }
+  #myProject .project {
+    width: 100%;
+  }
+  /*Contact Me*/
+  #contactForm {
+    margin-bottom: 50px;
+    font-size: 0.65rem;
+  }
+  #contactForm input[type=text], #contactForm input[type=email] {
+    width: 200px;
+    font-size: 0.7rem;
+    height: 20px;
+    margin-top: 3px;
+  }
+  #contactForm textarea {
+    width: 200px;
+    height: 100px;
+    font-size: 0.8rem;
+    margin: 5px 0px 0px;
+  }
+  #contactForm input[type=submit], #contactForm input[type=reset] {
+    width: 60px;
+    height: 20px;
+    font-size: 0.7rem;
+  }
+  #contactForm input[type=submit] {
+    margin-left: 40px;
+  }
+  /*Footer*/
+  footer {
+    font-size: 0.6rem;
+    height: 55px;
+  }
+  footer #iconsFooter {
+    margin-top: 10px;
+  }
+  footer #iconsFooter a {
+    font-size: 0.8rem;
+    margin-left: 5px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

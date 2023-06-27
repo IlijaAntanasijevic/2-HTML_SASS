@@ -1,0 +1,604 @@
+@media screen and (max-width:1441px) {
+    /*Pre-Header*/
+    header {
+        #logoName{
+            h1 a{
+                font-size: 1.35rem;
+            }
+        }
+        a{
+            font-size: 1rem;
+        }
+    }
+    /*Header*/
+    section {
+        #transparent {
+            p {
+                font-size: 1.1rem;
+            }
+            #text {
+                padding: 40px 70px;
+            
+            h2 {
+                font-size: 1.5rem;
+                letter-spacing: 0.8px;
+            }
+            h3 {
+                font-size: 1.3rem;
+            }
+            }
+        }
+    }
+    /*Skills*/
+    .wrapper-skills {
+        width: 95%;
+    }
+    #skills{
+        .myskills{
+            padding: 10px 10px;
+            .skillsText{
+                .pr {
+                    margin-left: 280px;
+                }
+            }
+            
+        }
+    }
+    /*Projects*/
+    .wrapper-project {
+        width: 90%;
+    }
+    
+   
+}
+
+@media screen and (max-width:1025px) {
+    section {
+        #text {
+            padding: 0px;
+            margin-left: 30px;
+            h2{
+                font-size: 1.1rem;
+            }
+            h3 {
+                font-size: 1rem;
+            }
+            #icons {
+                font-size: 1.15rem;
+                margin-top: 15px;
+            }
+        }
+    }
+    /*Skills*/
+    .wrapper-skills {
+        width: 100%;
+    }
+    #skills {
+        .myskills {
+            width: 30%;
+            
+            .skillsText {
+                .pr {
+                    margin-left: 250px;
+                }
+            }
+        }
+    }
+    /*Projects*/
+    #myProject {
+        flex-wrap: wrap;
+        .project {
+            margin-bottom: 50px;
+            width: 80%;
+        }
+    }
+    /*footer*/
+    footer {
+        font-size: 1rem;
+        #iconsFooter {
+            a {
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
+
+
+@media  screen and (max-width:769px) {
+    
+    header{
+        #logoName{
+            a {
+                img {
+                    width: 70px;
+                }
+            }
+        }
+    }
+    section {
+        #transparent {
+            align-items: center;
+        
+            #text {
+                padding: 40px 60px;
+                margin-left: 0px;
+                margin-top: 2px;
+                
+                h1 {
+                    font-size: 1.45rem;
+                }
+            }
+        }
+        
+        #image {
+            background-position: center;
+            background-size: cover;
+        }
+        #icons {
+            margin-top: 12px;
+        }
+    }
+    /*AboutMe*/
+    .wrapper {
+        width: 85%;
+    }
+    #about {
+        justify-content: space-between;
+
+        img {
+            width: 180px;
+        }
+
+        #aboutMe {
+            h3 {
+                font-size: 1.1rem;
+                line-height: 20px;
+            }
+        }
+    }
+    /*Skills*/
+    .wrapper-skills {
+        width: 100%;
+    }
+    #skills {
+        .myskills {
+            padding: 20px 0px;
+            width: 37%;
+            .skillsText {
+                .pr {
+                    margin-left: 220px;
+                }
+            }
+        }
+    }
+
+    /*CV*/
+    #aboutCv {
+        width: 150px;
+        height: 40px;
+        font-size: 0.9rem;
+    }
+    /*Projects*/
+    .wrapper-project{
+        width: 100%;
+    }
+    /*Contact Form*/
+    #contactForm {
+        input[type=text] {
+            width: 272px;
+        }
+        input[type=email] {
+            width: 554px;
+        }
+        textarea {
+            width: 555px;
+        }
+
+        input[type=submit] {
+            margin-left: 350px;
+        }
+    }
+    /*Footer*/
+    footer {
+        font-size: 0.9rem;
+        #iconsFooter {
+            a {
+                font-size: 1rem;
+            }
+        }
+    }
+}
+@media screen and (max-width:601px){
+    /*Skills*/
+    #skills {
+        .myskills {
+            width: 55%;
+        }
+    }
+
+    /*Contact Form*/
+    #contactForm {
+        justify-content: center;
+        input[type=text] {
+            width: 212px;
+        }
+        input[type=email] {
+            width: 435px;
+        }
+        textarea {
+            width: 440px;
+        }
+
+        input[type=submit] {
+            margin-left: 235px;
+        }
+
+
+    }
+}
+
+@media screen and (max-width:426px) {
+    #arrow {
+        width: 40px;
+        height: 40px;
+        a{
+            font-size: 2.2rem;
+            
+        }
+    }
+    header {
+        #logoName {
+            a {
+               img {
+                   width: 45px;
+               }
+            }
+        }
+        a {
+            font-size: 0.75rem;
+        }
+        ul {
+            margin-right: 20px;
+            li {
+                a{
+                    font-size: 0.8rem;
+                }
+            }
+        }
+    }
+    .line {
+        width: 100%;
+    }
+    section {
+        #transparent {
+            height: 400px;
+            p {
+                font-size: 0.8rem;
+                margin-bottom: 5px;
+            }
+            #text {
+                padding: 25px 40px;
+                margin-left: 0px;
+
+                h1 {
+                    font-size: 1rem;
+                    letter-spacing: 0.5px;
+                }
+                h3 {
+                    font-size: 0.9rem;
+                }
+                #icons {
+                    font-size: 1rem;
+                    letter-spacing: 4px;
+                }
+
+                #border {
+                    width: 135px;
+                    height: 45px;
+                }
+            }
+           
+        }
+        #image {
+            width: 100%;
+        }
+    }/*CV*/
+    #aboutCv{
+        margin-top: 0px;
+    }
+
+    /*AboutMe*/
+    .wrapper {
+        width: 90%;
+    }
+    #about {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 0px;
+        img {
+            width: 150px;
+        }
+        
+        #imgMe {
+            margin-bottom: 20px;
+        }
+        #aboutMe{
+            h3 {
+                width: 90%;
+                text-align: center;
+                font-size: 1rem;
+                letter-spacing: 0px;
+                margin-bottom: 30px;
+                line-height: 18px;
+            }
+        }
+        
+    }
+    #skills {
+        .myskills {
+            width: 80%;
+        
+        .css {
+            width: 70px;
+        }
+        .nodejs {
+            width: 170px;
+            img {
+                width: 170px;
+            }
+        }
+        }
+    }
+    /*Project*/
+    .wrapper-project {
+        width: 90%;
+    }
+    #myProject {
+        margin: 45px 0px 80px;
+        .project {
+            width: 100%;
+        }
+    }
+
+    /*Contact Form*/
+    #contactForm {
+        margin: 40px auto;
+        width: 80%;
+        #LstNamedesk {
+            display: none;
+        }
+        #resp-lastName{
+            display: inline-block;
+        }
+        
+        table tr td{
+            display:table-row;
+        }
+        input[type=text],input[type=email] {
+            width: 300px;
+            font-size: 0.9rem;
+        }
+        textarea {
+            width: 300px;
+            font-size: 0.9rem;
+        }
+        input[type=submit],input[type=reset] {
+            width: 70px;
+            height: 25px;
+            font-size: 0.7rem;
+        }
+        input[type=submit]{
+            margin-left: 80px;
+        }
+        input[type=reset] {
+            margin-left: 5px;
+        }
+    }
+    /*Footer*/
+    footer {
+        font-size: 0.8rem;
+        flex-direction: column;
+        p {
+            margin-top: 10px;
+        }
+        #iconsFooter {
+           margin-bottom: 10px;
+            a {
+                font-size: 1rem;
+                margin-left: 5px;
+            }
+        }
+    }
+}
+
+@media  screen and (max-width:321px) {
+    #arrow {
+        width: 25px;
+        height: 25px;
+        a{
+            justify-content: center;
+            align-items: center;
+            font-size: 1.4rem;
+            i {
+                margin-top: 0.5px;
+            }
+        }
+    }
+    /*Pre-Header*/
+    header {
+        #logoName {
+            a {
+               img {
+                   width: 30px;
+                   margin-top: 10px;
+               }
+            }
+        }
+    
+    nav {
+        ul {
+            li{
+                a{
+                    font-size: 0.5rem;
+                }
+            }
+        }
+    }
+        
+    }
+    .line {
+        width: 100%;
+        
+    }
+    /*Header*/
+    section {
+        margin: 10px 0px;
+        #transparent {
+            height: 300px;
+            p{
+                font-size: 0.7rem;
+                margin-bottom: 3px;
+            }
+
+            #text {
+                padding: 10px 30px;
+
+            h1 {
+                font-size: 0.75rem;
+                padding-top: 10px;
+                margin-bottom: 0px;
+            }
+            h3 {
+                font-size: 0.65rem;
+            }
+            #icons {
+                font-size: 0.7rem;
+                padding-bottom: 10px;
+                letter-spacing: 4px;
+                margin-top: 12px;
+            }
+            }
+        }
+        #image {
+            width: 100%;
+        }
+        
+    }
+    .title {
+        font-size: 0.8rem;
+    }
+    .title-skill{
+        margin: 0px;
+    }
+    /*AboutMe*/
+    #about {
+        img {
+            width: 110px;
+        }
+        #aboutMe {
+            h3 {
+                font-size: 0.8rem;
+                width: 85%;
+            }
+        }
+    }
+    /*Skills*/
+    #skills {
+        margin: 0px;
+        .myskills {
+            height: 200px;
+            //width: 90%;
+            
+            .photo {
+                width: 70px;
+            }
+            .css {
+                width: 55px;
+                img {
+                    width: 55px;
+                }
+            }
+            .js {
+                width: 120px;
+            }
+            .sql {
+                width: 110px;
+            }
+            .nodejs {
+                width: 160px;
+                img {
+                    width: 160px;
+                }
+            }
+        .skillsText {
+            h3 {
+                font-size: 0.95rem;
+            }
+            p {
+                font-size: 0.8rem;
+                margin-bottom: 20px;
+            }
+            .meter {
+                width: 80%;
+            }
+            .pr {
+                margin-left: 160px;
+            }
+            p:nth-child(3) {
+                font-size: 5rem;
+            }
+        }
+        }
+    }
+    /*Projects*/
+    #myProject {
+        margin: 35px 0px 0px;
+        .project {
+            width: 100%;
+        }
+    }
+    /*Contact Me*/
+    #contactForm {
+        margin-bottom: 50px;
+        font-size: 0.65rem;
+
+        input[type=text],input[type=email] {
+            width: 200px;
+            font-size: 0.7rem;
+            height: 20px;
+            margin-top: 3px;
+        }
+        textarea {
+            width: 200px;
+            height: 100px;
+            font-size: 0.8rem;
+            margin: 5px 0px 0px;
+        }
+        input[type=submit],input[type=reset] {
+            width: 60px;
+            height: 20px;
+            font-size: 0.7rem;
+        }
+        input[type=submit] {
+            margin-left: 40px;
+        }
+
+    }
+    /*Footer*/
+    footer {
+        font-size: 0.6rem;
+        height: 55px;
+
+        #iconsFooter {
+            margin-top: 10px;
+            a {
+
+                font-size: 0.8rem;
+                margin-left: 5px;
+            }
+            
+        }
+    }
+}
+
+

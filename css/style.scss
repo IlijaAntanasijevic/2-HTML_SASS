@@ -1,0 +1,459 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: logoFont;
+    src: url(../fonts/FugazOne-Regular.ttf);
+}
+
+@import "var.scss";
+@import "responsive.scss";
+
+html {
+    scroll-behavior: smooth;
+}
+/*ScrollBar*/
+::-webkit-scrollbar {
+    width: 8px;
+    
+}
+::-webkit-scrollbar-thumb {
+    background-color: $blue;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: $blue;
+    
+}
+/*End ScrollBar*/
+body {
+    background-color: $darkGray;
+    font-size: 16px;
+    font-family: 'Comfortaa', cursive;
+}
+a {
+    text-decoration: none;
+    color: $white;
+}
+li {
+    list-style-type: none;
+}
+
+#arrow {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: $blue;
+    bottom: 10px;
+    right: 15px;
+    
+     a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2.9rem;
+     }
+}
+
+/*Pre-Header*/
+ header {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     
+     #logoName {
+         a {
+            img {
+                margin-top: 4px;
+                width: 80px;
+            }
+         }
+         
+     }
+        
+        &:hover {
+            color: $blue;
+        }
+    }
+    nav {
+        ul {
+        display: flex;
+        justify-content: center;
+
+        li {
+            margin-left: 15px;
+
+            a {
+                transition: .7s;
+                font-size: 1.1rem;
+                &:hover {
+                    color: $blue;
+                }
+            }
+        }
+    }
+}
+        
+ .line {
+     width: 90%;
+     height: 1px;
+     background-color: $blue;
+     margin: 0px auto;
+     box-shadow: 0px -1px 4px 2px;
+ }
+ /*Header*/
+ section {
+    margin: 25px 0px 40px;
+      #transparent {
+          background-color: $transp;
+          width: 100%;
+          height: 750px;   
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          justify-content: center;
+
+          p {
+              color: $white;
+              margin-bottom: 10px;
+              font-size: 1.2rem;
+              font-style: italic;
+              border-bottom: 1px solid $blue;
+          }
+          
+        #text {
+            padding: 50px 70px;
+            box-sizing: border-box;
+            border-radius: 5px;
+            color:$white;
+            background-color: $transp;
+
+          
+            
+            h1 {
+                margin-bottom: 15px;
+                letter-spacing: 1px;
+                font-size: 1.6rem;
+                font-weight: normal;
+                
+                
+            }
+            h3 {
+                text-align: center;
+                margin-top: 10px;
+                color: $darkBlue;
+                letter-spacing: 0.5px;
+                font-weight: 600;
+                font-size: 1.4rem;
+                
+            }
+        }
+       
+      }
+      #icons {
+          text-align: center;
+          margin-top: 20px;
+          font-size: 1.35rem;
+          letter-spacing: 6px;
+          
+
+          i{
+            transition: .7s;
+            &:hover {
+                color: $blue;
+            }
+          }
+      }
+      #image {
+          background-image: url(../img/banner.jpg);
+          background-size: cover;
+          width: 90%;
+          margin: 0px auto;
+      }
+
+}
+.colorName {
+    color: $blue;
+}
+/*CV*/
+#aboutCv {
+    margin: 50px auto;
+    width: 180px;
+    height: 50px;
+    background-color: $blueTrans2;
+    border: 1px solid $black;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+/*AboutMe*/
+.title {
+        margin: 20px 0px;
+        letter-spacing: 1px;
+        text-align: center;
+        color: $blue;
+        font-weight: 600;
+        span {
+            color: $white;
+        }
+    }
+
+
+.wrapper {
+    width: 80%;
+    margin: 0px auto;
+}
+#about {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0px;
+    img {
+        width: 200px;
+    }
+    #aboutMe {
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h3 {
+            color: $white;
+            font-weight: 400;
+            letter-spacing: 0.5px;
+            font-size: 1.2rem;
+            line-height: 24px;
+            .underline {
+                border-bottom: 1px solid $blue;
+            }
+        }
+    }
+}
+
+/*Skills*/
+#skills {
+    display: flex;
+    margin: 30px 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+.myskills {
+    width: 25%;
+    height: 250px;
+    border: 2px solid $blue;
+    box-shadow: 0px 0px 10px 10px $black;
+    border-radius: 5%;
+    margin: 30px;
+    padding: 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: $white;
+
+    .photo {
+        width: 100px;
+        img {
+            width: inherit;
+        }
+        
+    }
+    .css {
+        margin: 0px auto;
+        width: 70px;
+        img {
+            width: 70px;
+        }
+    }
+    .js {
+        margin: 0px auto;
+        width: 150px;
+        img {
+            width: inherit;
+        }
+    }
+    .sql {
+        margin: 0px auto;
+        width: 140px;
+        img {
+            width: inherit;
+        }
+    }
+    .nodejs {
+        margin: 0px auto;
+        width: 200px;
+        img {
+            width: 200px;
+        }
+     }
+}
+
+
+.skillsText { 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0px 10px;
+    h3 {
+        margin: 10px 0px;
+    }
+.meter {
+    width: 90%;
+    height: 10px;
+    background-color: $black;
+    margin: 10px 0px;
+    
+    .fill {
+        width: 70%;
+        height: inherit;
+        background-color: $blue;
+    }
+    .html {
+        width: 90%;
+    }
+
+    .css-fill {
+        width: 85%;
+    }
+
+    .php {
+        width: 75%;
+    }
+    .sql-fill {
+        width: 60%;
+    }
+}
+}
+.pr{
+    margin-left: 310px;
+}
+}
+
+/*Projects*/
+
+#myProject {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 65px 0px 150px;
+    
+    .project {
+        width: 45%;
+        border: 1px solid $darkBlue;
+        box-shadow: 1px 1px 2px 4px $black;
+        border-radius: 2%;
+        
+        a {
+            img {
+                
+                margin: 0px auto;
+                width: 100%;
+                height: inherit;
+                border-radius: 2%;
+            }
+        }
+    }
+}
+
+/*Contact Form*/
+#contactForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 100px;
+
+     label {
+         color: $white;
+        border-bottom: 1px solid $blue;
+        
+    }
+    #resp-lastName {
+        display: none;
+        
+    }
+    input[type=text] {
+        width: 300px;
+        height: 30px;
+        font-size: 1.5rem;
+        color: $darkBlue;
+        margin: 10px 0px;
+        font-family: 'Comfortaa', cursive;
+    }
+    input[type=email] {
+        width: 604px;
+        height: 30px;
+        font-size: 1.5rem;
+        color: $darkBlue;
+        margin-bottom: 10px;
+        margin-top: 5px;
+        font-family: 'Comfortaa', cursive;
+    }
+        textarea {
+        width: 605px;
+        font-size: 1.5rem;
+        color: $darkBlue;
+        margin: 10px 0px;
+        font-family: 'Comfortaa', cursive;
+        padding: 10px;
+        box-sizing: border-box;
+    
+}
+    input[type=submit],input[type=reset] {
+        text-align: center;
+        width: 100px;
+        height: 30px;
+        font-size: 1.1rem;
+        color: $white;
+        background-color: $blue;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: .5s;
+        
+       
+    }
+    input[type=submit] {
+        margin-left: 400px;
+    }
+        input[type=submit],input[type=reset]{
+
+            &:hover {
+                background-color: $blueTrans;
+                border: 1px solid $blue;
+                
+            }
+        }
+    
+
+}
+
+/*footer*/
+
+footer {
+    color: $white;
+    margin-top: 15px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $black;
+    
+    #iconsFooter {
+        
+        a{
+        transition: .7s;
+        margin-left: 10px;
+        font-size: 1.4rem;
+            &:hover {
+                color: $blue;
+            }
+        }
+       
+    }
+}
+
